@@ -14,17 +14,23 @@ The system uses:
 
 # System Architecture
 
+The proposed Text-to-SQL model converts natural language queries into SQL using a retrieval-augmented generation pipeline.
+
 User Query  
 ↓  
-Schema Retrieval (FAISS)  
+Embedding Generation (Sentence Transformers)  
 ↓  
-Join Path Detection  
+Schema Retrieval (FAISS Vector Index)  
 ↓  
-DeepSeek-Coder SQL Generation  
+Join Path Detection (Schema Graph)  
 ↓  
-SQL Execution  
+SQL Generation (DeepSeek-Coder via Ollama)  
 ↓  
-Streamlit Visualization  
+SQL Validation & Repair  
+↓  
+SQLite Execution  
+↓  
+Streamlit Visualization Dashboard
 
 ---
 
