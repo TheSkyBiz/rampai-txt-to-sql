@@ -1,0 +1,142 @@
+[
+    {
+        "table1": "customer_vehicle_info",
+        "table2": "employee_info",
+        "column": "person_id"
+    },
+    {
+        "table1": "customer_vehicle_info",
+        "table2": "job_card_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "customer_vehicle_info",
+        "table2": "vehicle_service_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "customer_vehicle_info",
+        "table2": "vehicle_service_summary",
+        "column": "customer_id"
+    },
+    {
+        "table1": "customer_vehicle_info",
+        "table2": "vehicle_service_summary",
+        "column": "person_id"
+    },
+    {
+        "table1": "employee_info",
+        "table2": "customer_vehicle_info",
+        "column": "person_id"
+    },
+    {
+        "table1": "employee_info",
+        "table2": "vehicle_service_summary",
+        "column": "person_id"
+    },
+    {
+        "table1": "employee_info",
+        "table2": "workshop_info",
+        "column": "workshop_id"
+    },
+    {
+        "table1": "employee_info",
+        "table2": "workshop_info",
+        "column": "email_id"
+    },
+    {
+        "table1": "job_card_details",
+        "table2": "customer_vehicle_info",
+        "column": "customer_id"
+    },
+    {
+        "table1": "job_card_details",
+        "table2": "vehicle_service_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "job_card_details",
+        "table2": "vehicle_service_details",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "job_card_details",
+        "table2": "vehicle_service_summary",
+        "column": "customer_id"
+    },
+    {
+        "table1": "job_card_details",
+        "table2": "vehicle_service_summary",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "vehicle_service_details",
+        "table2": "customer_vehicle_info",
+        "column": "customer_id"
+    },
+    {
+        "table1": "vehicle_service_details",
+        "table2": "job_card_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "vehicle_service_details",
+        "table2": "job_card_details",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "vehicle_service_details",
+        "table2": "vehicle_service_summary",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "vehicle_service_details",
+        "table2": "vehicle_service_summary",
+        "column": "customer_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "customer_vehicle_info",
+        "column": "customer_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "customer_vehicle_info",
+        "column": "person_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "employee_info",
+        "column": "person_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "job_card_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "job_card_details",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "vehicle_service_details",
+        "column": "vehicle_svc_id"
+    },
+    {
+        "table1": "vehicle_service_summary",
+        "table2": "vehicle_service_details",
+        "column": "customer_id"
+    },
+    {
+        "table1": "workshop_info",
+        "table2": "employee_info",
+        "column": "workshop_id"
+    },
+    {
+        "table1": "workshop_info",
+        "table2": "employee_info",
+        "column": "email_id"
+    }
+]
